@@ -24,6 +24,7 @@ function addNextSequence() {
   });
 
 
+  $('h1').text("Level " + gamePattern.length);
 }
 $(document).keypress(function () {
   if (!isRunning) {
