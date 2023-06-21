@@ -23,6 +23,9 @@ function addNextSequence() {
     opacity: 1,
   });
 
+  var sound = new Audio('/sounds/'+ colors[next] +'.mp3');
+  sound.play();
+
 
   $('h1').text("Level " + gamePattern.length);
 }
